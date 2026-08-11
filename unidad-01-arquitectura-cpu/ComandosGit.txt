@@ -1,0 +1,57 @@
+Notas
+1. git init
+	Inicializa un proyecto git. Se puede observar el archivo oculto .git
+3. git branch
+	Comando fundamental para manejar las ramas (Crear nuevas, cambiar el nombre, eliminar etc)
+	> git branch
+	> git branch -m main
+	> git branch NuevaRama
+	> git branch -d RamaAEliminar
+	
+4. git checkout
+	Comando para cambiar entre versiones. Puede ser entre ramas, commits, o archivo en particular
+	> git checkout rama
+	> git checkout commit
+	
+5. git status
+	Mostrar los espacios pendientes: Modified y Staged
+		> Modified: Archivos modificados y no trackeados
+		> Staged: Archivos modificados y listos para ser trackeados
+		
+5. git add
+	Agrega archivos con cambios a la zona staging para ser incluidos en el
+	próximo commit
+	> git add archivo
+	> git add *
+	
+6. git commit
+	Realizar commit de los archivos agregados en staging
+	> git commit -s -m "Mensaje del commit"
+	
+7. git log
+	Muestra el historial de commits
+	
+8. git merge
+	Fusiona ramas
+	Primero estar en rama que recibe cambios
+	> git checkout main
+	Fusiona rama
+	> git merge ramaAfusionar
+	
+9. git rebase
+	Combina ramas mezclando commits en uno nuevo
+	Primero estar en rama que recibe cambios
+	> git checkout development
+	Mezcla rama
+	> git rebase main
+
+10. git revert
+	Elimina los cambios DEL COMMIT especificado, creando un
+	nuevo commit
+	> git revert commit-id
+	> git revert OLDER_COMMIT..NEWER_COMMIT
+
+11. git reset
+	Mueve HEAD a un commit anterior, eliminando commits intermedios
+	¡PELIGROSO!
+	> git reset --hard commit-id
