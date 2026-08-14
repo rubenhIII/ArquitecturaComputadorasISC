@@ -1,8 +1,3 @@
-"🔥 GUÍA DE SUPERVIVENCIA EN LA TERMINAL"
-"Comandos básicos para no morir en el intento"
-"Dr. Rubén Hernández"
-"Arquitectura de Computadoras - ISC - 2026"
-
 # 🐧 GUÍA DE SUPERVIVENCIA EN LINUX (TERMINAL)
 
 > **Regla de oro:** *"Si no sabes qué hace un comando, no lo ejecutes. Primero escribe `man comando` o `comando --help`"*.
