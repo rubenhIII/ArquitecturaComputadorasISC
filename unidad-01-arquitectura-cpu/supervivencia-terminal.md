@@ -1,9 +1,7 @@
----
-title: "🔥 GUÍA DE SUPERVIVENCIA EN LA TERMINAL"
-subtitle: "Comandos básicos para no morir en el intento"
-author: "Dr. Rubén Hernández"
-date: "Arquitectura de Computadoras - ISC - 2026"
----
+"🔥 GUÍA DE SUPERVIVENCIA EN LA TERMINAL"
+"Comandos básicos para no morir en el intento"
+"Dr. Rubén Hernández"
+"Arquitectura de Computadoras - ISC - 2026"
 
 # 🐧 GUÍA DE SUPERVIVENCIA EN LINUX (TERMINAL)
 
